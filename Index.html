@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GlamZone - Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">💄 GlamZone</div>
+    <div class="nav-buttons">
+      <a href="/login" class="btn">Login</a>
+      <a href="/register" class="btn">Register</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Enhance Your Beauty with GlamZone</h1>
+      <p>Your one-stop destination for all beauty services.</p>
+    </div>
+    <div class="hero-image">
+      <div class="placeholder-image">[ Model Image ]</div>
+    </div>
+  </section>
+
+  <section class="roles">
+    <h2>Choose Your Role</h2>
+    <div class="role-cards">
+      <div class="card">
+        <div class="card-image">👩🏽‍🦱</div>
+        <h3>Client</h3>
+        <a href="/register" class="card-btn">Join as Client</a>
+      </div>
+      <div class="card">
+        <div class="card-image">💇‍♀️</div>
+        <h3>Beautician</h3>
+        <a href="/register" class="card-btn">Join as Beautician</a>
+      </div>
+      <div class="card">
+        <div class="card-image">🏪</div>
+        <h3>Shop Owner</h3>
+        <a href="/register" class="card-btn">Join as Shop Owner</a>
+      </div>
+      <div class="card">
+        <div class="card-image">🧑‍💼</div>
+        <h3>Admin</h3>
+        <a href="/login" class="card-btn">Admin Login</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
