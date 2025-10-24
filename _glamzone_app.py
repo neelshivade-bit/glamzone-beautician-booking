@@ -57,3 +57,17 @@ elif page == "Book Appointment":
                        (beautician_id, date, time))
         conn.commit()
         st.success("Appointment booked!")
+
+import streamlit as st
+import mysql.connector
+
+try:
+    conn = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="your_password",
+        database="glamzone"
+    )
+    st.success("✅ MySQL connection successful!")
+except Exception as e:
+    st.error(f"❌ MySQL connection failed: {e}")
