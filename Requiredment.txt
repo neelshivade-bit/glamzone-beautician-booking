@@ -1,11 +1,9 @@
-# Streamlit for app UI
-streamlit
-
-# Optional: MySQL database connector (if using MySQL for data storage)
-mysql-connector-python
-
-# Optional: Razorpay for payment gateway integration
-razorpay
-
-# Optional: Requests library for API calls or notifications
-requests
+Flask==2.3.3
+Flask-MySQLdb==0.2.0
+mysqlclient==2.2.0
+Werkzeug==2.3.0
+Jinja2==3.1.2
+itsdangerous==2.1.2
+MarkupSafe==2.1.3
+streamlit==1.29.0
+razorpay==1.3.0
