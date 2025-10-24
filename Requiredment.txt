@@ -1,0 +1,11 @@
+# Streamlit for app UI
+streamlit
+
+# Optional: MySQL database connector (if using MySQL for data storage)
+mysql-connector-python
+
+# Optional: Razorpay for payment gateway integration
+razorpay
+
+# Optional: Requests library for API calls or notifications
+requests
